@@ -55,7 +55,6 @@ const about = () => {
                 <span className="skills__percentage advanced"></span>
               </div>
             </div>
-
           </div>
         </div>
       </div>
