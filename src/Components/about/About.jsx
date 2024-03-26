@@ -12,13 +12,23 @@ const about = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__decription">I am Revanth Vishnu Ravichandran, Web developer from Coimbatore. I have rich experience in web site designing and building and customization.</p>
-            <a href="https://drive.google.com/file/d/1Ixc6OxdqCpiYJC9G9B9EgrdtodeooWr4/view?usp=sharing" className="btn">Download Resume</a>
+            <a href="https://drive.google.com/file/d/1buMOjpTPW739RynSKHJf1hm4kO53WI-n/view?usp=sharing" className="btn">Download Resume</a>
           </div>
           <div className="about__skills grid">
             
             <div className="skill__data">
               <div className="skills__titles">
                 <h3 className="skills__names">HTML & CSS</h3> 
+                  <span className="skills__level ">Expert</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage expert"></span>
+              </div>
+            </div>
+
+            <div className="skill__data">
+              <div className="skills__titles">
+                <h3 className="skills__names">Tailwind</h3> 
                   <span className="skills__level ">Expert</span>
               </div>
               <div className="skills__bar">
