@@ -33,3 +33,10 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
 }
+
+@media (max-width: 480px) {
+.aside{
+    min-height: 200vh;
+}
+
+}

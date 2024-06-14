@@ -1,4 +1,5 @@
 .about__container{
+    position: relative;
     grid-template-columns: 3fr 9fr;
     column-gap: 1.875rem;
 }
