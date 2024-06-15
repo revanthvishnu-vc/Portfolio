@@ -3,7 +3,9 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    overflow-y: auto; /* Enable vertical scrolling */
+    scroll-snap-type: y mandatory; /* Enable snap scrolling */
 }
 
 .intro {
@@ -98,6 +100,11 @@
 }
 
 @media (max-width: 30rem) { /* 480px / 16px */
+    .home {
+        height: 100vh; /* Full viewport height */
+        overflow-y: auto; /* Enable vertical scrolling */
+        scroll-snap-type: y mandatory; /* Enable snap scrolling */
+    }
     .home__name {
         font-size: 1.25rem; /* Adjust font size for smaller screens */
     }
@@ -110,6 +117,7 @@
     .home__social-link {
         font-size: 1rem; /* Adjust font size for smaller screens */
     }
+
     .scroll__down {
         bottom: 0;
     }
