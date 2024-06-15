@@ -4,12 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center; 
-    overflow-y: auto; /* Enable vertical scrolling */
-    scroll-snap-type: y mandatory; /* Enable snap scrolling */
+    overflow-y: auto; 
+    scroll-snap-type: y mandatory; 
 }
 
 .intro {
-    max-width: 33.75rem; /* 540px / 16px */
+    max-width: 33.75rem; 
     text-align: center;
     padding: 0 1rem;
 }
@@ -54,7 +54,7 @@
 }
 
 .mouse {
-    border: 0.125rem solid var(--text-color); /* 2px / 16px */
+    border: 0.125rem solid var(--text-color); 
     display: block;
     height: 1.6rem;
     width: 1.25rem;
@@ -93,29 +93,29 @@
 
 /* Media Queries for Responsiveness */
 
-@media (max-width: 48rem) { /* 768px / 16px */
+@media (max-width: 48rem) { 
     .home__name {
-        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        font-size: 1.5rem; 
     }
 }
 
-@media (max-width: 30rem) { /* 480px / 16px */
+@media (max-width: 30rem) { 
     .home {
-        height: 100vh; /* Full viewport height */
-        overflow-y: auto; /* Enable vertical scrolling */
-        scroll-snap-type: y mandatory; /* Enable snap scrolling */
+        height: 100vh; 
+        overflow-y: auto; 
+        scroll-snap-type: y mandatory; 
     }
     .home__name {
-        font-size: 1.25rem; /* Adjust font size for smaller screens */
+        font-size: 1.25rem; 
     }
 
     .home__socials {
-        flex-direction: column; /* Stack social links vertically on smaller screens */
-        margin-top: 1rem; /* Add space between social links and the name */
+        flex-direction: column; 
+        margin-top: 1rem; 
     }
 
     .home__social-link {
-        font-size: 1rem; /* Adjust font size for smaller screens */
+        font-size: 1rem; 
     }
 
     .scroll__down {

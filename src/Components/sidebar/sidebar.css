@@ -38,6 +38,6 @@
 
 @media (max-width: 30rem) { /* 480px */
     .aside {
-        min-height: 200vh;
+        min-height: 160vh;
     }
 }

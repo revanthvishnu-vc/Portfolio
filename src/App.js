@@ -8,7 +8,7 @@ import Resume from './Components/resume/Resume.jsx';
 
 const App = () => {
   return (
-    <div>
+    <div className='container'>
       <Sidebar />
       <main className='main'>
         <Home />
