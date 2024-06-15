@@ -2,17 +2,17 @@
     position: relative;
     display: grid;
     grid-template-columns: 3fr 9fr;
-    column-gap: 1.875rem; /* 30px */
+    column-gap: 1.875rem; 
 }
 
 .about__data {
-    padding: 1.875rem; /* 30px */
+    padding: 1.875rem; 
     background-color: var(--container-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 1.875rem; /* 30px */
+    column-gap: 1.875rem; 
     align-items: flex-start;
     position: relative;
 }
@@ -21,11 +21,11 @@
     content: '';
     width: 0;
     height: 0;
-    border-top: 0.625rem solid transparent; /* 10px */
-    border-bottom: 0.625rem solid transparent; /* 10px */
-    border-right: 0.9375rem solid var(--container-color); /* 15px */
+    border-top: 0.625rem solid transparent; 
+    border-bottom: 0.625rem solid transparent; 
+    border-right: 0.9375rem solid var(--container-color); 
     position: absolute;
-    left: -0.9375rem; /* 15px */
+    left: -0.9375rem; 
     top: 20%;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .button {
-    margin-top: 1.5625rem; /* 25px */
+    margin-top: 1.5625rem; 
 }
 
 .about__skills {
-    row-gap: 1.25rem; /* 20px */
+    row-gap: 1.25rem; 
 }
 
 .skills__titles {
@@ -58,8 +58,8 @@
 }
 
 .skills__bar, .skills__percentage {
-    height: 0.4375rem; /* 7px */
-    border-radius: 0.25rem; /* 4px */
+    height: 0.4375rem; 
+    border-radius: 0.25rem; 
 }
 
 .skills__bar {
@@ -73,25 +73,25 @@
 .expert {
     width: 100%;
     background-color: rgb(255, 209, 92);
-    border-radius: 1.25rem; /* 20px */
+    border-radius: 1.25rem; 
 }
 
 .advanced {
     width: 85%;
     background-color: rgb(255, 209, 92);
-    border-radius: 1.25rem; /* 20px */
+    border-radius: 1.25rem; 
 }
 
 .about__boxes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 1.875rem; /* 30px */
-    margin-top: 4.35rem; /* 70px */
+    column-gap: 1.875rem; 
+    margin-top: 4.35rem; 
 }
 
 .about__box {
     display: flex;
-    column-gap: 1.5rem; /* 24px */
+    column-gap: 1.5rem; 
 }
 
 .about__icon {
@@ -100,5 +100,5 @@
 }
 
 .about__title {
-    font-size: 1.875rem; /* 30px */
+    font-size: 1.875rem; 
 }

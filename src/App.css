@@ -12,10 +12,15 @@ body {
 }
 
 /* Main Content Styles */
+.sidebar{
+  height: 100vh;
+}
+
 .main {
   margin-left: 10.625rem; 
   padding: 1rem; 
   transition: margin-left 0.3s ease-in-out;
+  height: 100vh;
 }
 
 @media (max-width: 48rem) { 
@@ -27,7 +32,7 @@ body {
     width: min-content;
     margin-left: 12.5rem; 
   }
-  
+
   h1 {
     font-size: 2rem; 
   }
